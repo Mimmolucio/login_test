@@ -8,10 +8,7 @@ int getInt() {
 }
 
 
-int loginSignup() {
-    
-    
-}
+
 
 void greeting() {
     system("clear");

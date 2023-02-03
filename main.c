@@ -3,6 +3,7 @@
 #include <stdlib.h>
 
 int main() {
-    greeting();
+    int x = getInt();
+    printf("Input is: %d\n", x);
     return 0;
 }
