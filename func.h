@@ -3,5 +3,6 @@
 
 int getInt();
 void greeting();
+void signUp();
 
 #endif
