@@ -15,14 +15,14 @@ void greeting()
     printf("Would you like to Login (1) or Sign Up (2)? ");
 }
 
-void signUp() {
+void signUp()
+{
     FILE *fp = fopen("./database.csv", "a");
 
-    if (fp == NULL) {
+    if (fp == NULL)
+    {
         printf("Error opening database\n");
     }
 
-    
-    
+       printf("Enter your name: ");
 }
-

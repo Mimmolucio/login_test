@@ -1,6 +1,12 @@
 #include "func.h"
 #include <stdio.h>
 
+struct User
+{
+    char *name;
+    char *password;
+};
+
 int main()
 {
 
